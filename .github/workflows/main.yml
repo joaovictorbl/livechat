@@ -3,10 +3,12 @@ name: Java CI com Maven
 on:
   push:
     branches:
-      - homolog
+      - homolog  # Ambiente de Homologação
+      - main     # Ambiente de Produçã
   pull_request:
     branches:
       - homolog
+      - main
 
 jobs:
   build:
@@ -30,3 +32,4 @@ jobs:
 
       - name: Executar testes com Maven
         run: mvn test
+
