@@ -1,7 +1,7 @@
 package br.com.livechat.controller;
 
-import br.com.livechat.domain.ChatOutput;
 import br.com.livechat.domain.ChatInput;
+import br.com.livechat.domain.ChatOutput;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
